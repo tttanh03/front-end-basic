@@ -1,0 +1,528 @@
+body {
+    background-color: rgb(247, 244, 244);
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.clear-float {
+    clear: both;
+}
+
+header {
+    margin: 0px;
+    margin-top: -5px;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 0;
+    background-color: black;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.dropdown-divider {
+    padding: 0;
+    margin: 0;
+}
+
+header .navbar {
+    padding: 0 10px;
+    margin: 0 80px;
+}
+
+.Desti-dropdown:hover .Desti-content {
+    display: block;
+    color: black;
+    background-color: rgb(125, 192, 255);
+}
+
+.Desti-content {
+    display: none;
+    position: absolute;
+    z-index: 2;
+}
+
+.Desti-content ul {
+    padding-inline-start: 0;
+}
+
+.Desti-content ul li {
+    float: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Desti-content ul li .destination-dropdown {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    width: 120px;
+    padding: 0;
+    font-size: 12.5px;
+}
+
+.Desti-content ul li .destination-dropdown:hover {
+    color: black;
+}
+
+header form {
+    margin-right: 10px;
+}
+
+header .logo {
+    background-image: url("../Assets/ip2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 140px;
+    height: 140px;
+    background-position: center;
+}
+
+header .navigationbar ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    /*line-height: 140px;
+    width: 120px; */
+    padding: 0 10px;
+    text-align: center
+}
+
+header ul li .nav-link:hover {
+    color: rgb(0, 162, 255)!important;
+    font-weight: bold;
+    /*color: black;
+    background-color: rgba(255, 255, 255, 0.623);*/
+}
+
+.form-inline .btn {
+    color: rgb(0, 153, 255);
+    border-color: rgb(0, 153, 255);
+}
+
+.form-inline .btn:hover {
+    background-color: rgb(0, 153, 255);
+    color: white;
+}
+
+.form-inline {
+    position: absolute;
+    right: 1px;
+}
+
+.navbar-brand {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.page-content {
+    padding: 0;
+}
+
+.asiatopbg {
+    background-image: url("../Assets/vietnam-sapa-lao-cai-bgbl.jpg");
+    height: 200px;
+    background-size: cover;
+    width: 100%;
+    display: table;
+    text-align: center;
+    position: relative;
+    z-index: 0;
+}
+
+.asiatopbg span {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.featured {
+    background-color: whitesmoke;
+    margin: 15px 95px;
+}
+
+.featured .main-featured {
+    background-color: white;
+    padding: 10px;
+}
+
+.featured .main-featured .main-post {
+    position: relative;
+}
+
+.featured .main-featured .main-pic {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.featured .main-featured .tittle-featured {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(transparent, black)
+}
+
+.featured .main-featured .tittle-featured h3 {
+    color: white;
+    padding: 65px 10px 7px 10px;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.featured .ads {
+    padding-right: 0;
+}
+
+.featured .ads img {
+    width: 100%;
+    height: auto;
+}
+
+.small-main-post {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.small-main-post .asia-items img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.small-main-post .asia-items p {
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 8px;
+}
+
+.wander-choice {
+    margin: 10px 95px;
+}
+
+.wander-choice .tittle {
+    background-color: rgb(15, 15, 15);
+    border: 0;
+    border-block-end-color: rgb(30, 135, 255);
+    border-block-end-style: solid;
+    border-block-end-width: 8px;
+}
+
+.wander-choice .tittle p {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 0;
+}
+
+.wander-choice .wander-choice-post {
+    margin-top: 20px;
+}
+
+.wander-choice .wander-choice-post .choice-items img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.wander-choice .wander-choice-post a {
+    text-decoration: none;
+}
+
+.wander-choice .wander-choice-post p {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.eat-the-world {
+    margin-top: 50px;
+}
+
+.recent-post {
+    margin: 40px 95px 20px 95px;
+}
+
+.recent-post .recent-item {
+    padding: 20px 0;
+    border-block-end-color: rgba(211, 211, 211, 0.562);
+    border-block-end-style: solid;
+    border-block-end-width: 1px;
+}
+
+.recent-post .left-side {
+    background-color: white;
+}
+
+.recent-post .left-side img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+
+.recent-post .left-side .text h6 {
+    color: gray;
+    font-size: 11px;
+}
+
+.recent-post .left-side .text h3 {
+    color: black;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.recent-post .left-side .text p {
+    color: rgb(97, 97, 97);
+    font-size: 14px;
+}
+
+.left-side a {
+    text-decoration: none;
+}
+
+.ads-side {
+    padding-right: 0;
+    
+}
+
+.ads-side img {
+    width: 100%;
+    
+    
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+}
+
+footer .top-of-footer {
+    background-color: rgb(36, 36, 36);
+    padding: 20px 0;
+}
+
+footer .top-of-footer .intro {
+    width: 30%;
+    display: block;
+}
+
+footer .top-of-footer .intro .logo {
+    background-image: url("../Assets/ip2.png");
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-position: center;
+    background-color: transparent;
+    border: none;
+    background-repeat: none;
+    margin-left: 50px;
+}
+
+footer .top-of-footer p {
+    font-size: 12px;
+    color: white;
+}
+
+footer .top-of-footer .about-us p {
+    margin-top: 10px;
+}
+
+footer .top-of-footer .about-us .address {
+    color: white;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+footer .top-of-footer .about-us img {
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+
+footer .top-of-footer .head {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+footer .top-of-footer .follow-us {
+    width: 30%;
+    display: block;
+}
+
+footer .bot-of-footer {
+    background-color: rgb(0, 132, 255);
+    margin: 0 -15px;
+}
+
+footer .bot-of-footer .copyright {
+    font-size: 11px;
+    color: white;
+    float: left;
+    padding: 10px;
+}
+
+footer .bot-of-footer .other-info {
+    float: right;
+    display: inline-block;
+    padding: 10px 0;
+}
+
+footer .bot-of-footer .other-info a {
+    font-size: 11px;
+    padding: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.backtotop-button button {
+    background-image: url("http://quochung.com.vn/image/data/logo/back-to-top.png");
+    position: fixed;
+    right: 5px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    border: none;
+}
+.backtotop-button button:focus {
+    outline: none;
+}
+@media only screen and (max-width:769px) {
+    .ads {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .ads-side {
+        padding-top: 20px;
+        text-align: center;
+        padding-right:0;
+    }
+    .ads-side img {
+        width: 40%;}
+        
+    .ads-side p {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 552px) and (max-width: 767px) {
+    footer .top-of-footer .about-us .address {
+        color: white;
+        font-size: 12px;
+        line-height: 40px;
+        padding: 0;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .Desti-content {
+        display: none;
+        margin-top: none;
+        position: unset;
+    }
+    .Desti-content ul li .destination-dropdown {
+        width: auto;
+        line-height: 30px;
+    }
+    .navigationbar ul li a {
+        line-height: 30px;
+    }
+    header ul li a:hover {
+        background-color: transparent;
+    }
+    .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+        color: rgb(0, 162, 255);
+        font-weight: bold;
+    }
+    .form-inline {
+        position: unset;
+        display: flex;
+        justify-content: center;
+    }
+    .my-1 {
+        margin-top: 15px!important;
+        margin-bottom: 15px!important;
+    }
+    .form-control {
+        display: inline-block;
+        margin: unset;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar-nav .nav-item {
+        line-height: 140px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 25px;
+        padding-left: .25px;
+    }
+}
+@media (max-width: 576px) {
+    header .navbar {
+        padding: 0;
+        margin: 0;
+    }
+}
+@media (max-width:767px) {
+    footer .top-of-footer .intro .logo {
+        margin-left: -15px;
+    }
+    .recent-item .text h6 {
+        margin-top: 10px;
+    }
+    .recent-item .text h3 {
+        margin-top: 10px;
+    }
+}
+@media (min-width:508px) and (max-width:668px) {
+.featured .main-featured .tittle-featured h3 {
+    padding: 25px 10px 7px 10px;
+    font-size: 18px;
+}
+}
+@media (min-width:463px) and (max-width:507px) {
+    .featured .main-featured .tittle-featured h3 {
+        padding: 16px 10px 7px 10px;
+        font-size: 17px;
+    }
+}
+@media (max-width: 462px){
+    .featured {
+        margin: 15px 20px;
+
+    }
+    .wander-choice{
+        margin:10px 20px;
+
+    }
+    .recent-post {
+        margin: 40px 20px 20px 20px;
+    }
+    .featured .main-featured .tittle-featured h3 {
+        padding: 15px 10px 7px 10px;
+        font-size: 16px;
+    }
+}

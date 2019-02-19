@@ -1,0 +1,864 @@
+body {
+    background-color: rgb(247, 244, 244);
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.clear-float {
+    clear: both;
+}
+
+header {
+    margin: 0px;
+    margin-top: -5px;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 0;
+    background-color: black;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+header .navbar {
+    padding: 0 10px;
+    margin: 0 80px;
+}
+
+header form {
+    margin-right: 10px;
+}
+
+header .logo {
+    background-image: url("../Assets/ip2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 140px;
+    height: 140px;
+    background-position: center;
+}
+
+/* header .navigationbar ul {
+    list-style: none;
+    float: left;
+    padding: 0;
+    margin: 0;
+} 
+.search-box {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+.search-icon {
+    background-image: url("http://www.clker.com/cliparts/v/C/2/9/I/6/search-icon-white-md.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    display: inline-block;
+    float: left;
+    
+
+    
+}
+input {
+    
+    float: right;
+    margin: 0 9px;
+    
+}
+header .navigationbar ul li {
+    float: left;
+    margin: 0;
+} */
+
+header .navigationbar ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    /*line-height: 140px;
+    width: 120px; */
+    padding: 0 10px;
+    text-align: center
+}
+
+header ul li .nav-link:hover {
+    color: rgb(0, 162, 255)!important;
+    font-weight: bold;
+    /*color: black;
+    background-color: rgba(255, 255, 255, 0.623);*/
+}
+
+.form-inline .btn {
+    color: rgb(0, 153, 255);
+    border-color: rgb(0, 153, 255);
+}
+
+.form-inline .btn:hover {
+    background-color: rgb(0, 153, 255);
+    color: white;
+}
+
+.Desti-dropdown:hover .Desti-content {
+    display: block;
+    color: black;
+    background-color: rgb(125, 192, 255);
+}
+
+.Desti-content {
+    display: none;
+    position: absolute;
+    z-index: 2;
+}
+
+.Desti-content ul {
+    padding-inline-start: 0;
+}
+
+.Desti-content ul li {
+    float: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Desti-content ul li .destination-dropdown {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    width: 120px;
+    padding: 0;
+    font-size: 12.5px;
+}
+
+.Desti-content ul li .destination-dropdown:hover {
+    color: black;
+}
+
+.form-inline {
+    position: absolute;
+    right: 1px;
+}
+
+.navbar-brand {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.dropdown-divider {
+    padding: 0;
+    margin: 0;
+}
+
+.page-content {
+    padding: 0;
+}
+
+.page-content .slider {
+    margin: 0px;
+}
+
+.carousel-item img {
+    height: 600px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.815), black)!important;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+    padding-top: 30px;
+    text-align: unset;
+}
+
+.carousel-caption h5 {
+    padding-left: 100px;
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    Padding-left: 100px;
+    font-size: 16px;
+    padding-right: 70px;
+}
+
+/*
+.page-content .slider .img-slider {
+    background-image: url("../Assets/malay\ 3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 590px;
+    background-position: center;
+    position: relative;
+    
+    
+}
+
+.page-content .slider .button {
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    width: 100%;
+}
+.page-content .slider .button .button2:hover {
+    background-color: rgba(0, 0, 0, 0.37);
+}
+.page-content .slider .button .button1:hover {
+    background-color: rgba(0, 0, 0, 0.342);
+}
+.button .button2 {
+    
+    float: right;
+    background-image: url("../assets/Untitled-1.png");
+    background-size: cover;
+    padding: 20px;
+    background-color: transparent;
+    border: 0;
+
+}
+.button .button1{
+    background-image: url("../Assets/Untitled-2.png");
+    background-size: cover;
+    padding: 20px;
+    background-color: transparent;
+    border: 0;
+}
+*/
+
+.featured {
+    background-color: whitesmoke;
+    margin: 15px 95px;
+}
+
+.featured .main-featured {
+    background-color: white;
+    padding: 10px;
+}
+
+.featured .main-featured .main-post {
+    position: relative;
+}
+
+.featured .main-featured .main-pic {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.featured .main-featured a {
+    text-decoration: none;
+}
+
+.featured .main-featured .title-featured h3 {
+    color: rgb(20, 20, 20);
+    padding: 15px 0px 0px 0px;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.small-main-post {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.small-main-post .home-items img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+.small-main-post .home-items p {
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 8px;
+}
+
+.small-side-article {
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+}
+
+.small-side-article .side-item {
+    margin-bottom: 10px;
+}
+
+.small-side-article .side-item .side-item-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-bottom: 10px;
+}
+
+.small-side-article .side-item .side-item-title a {
+    text-decoration: none;
+}
+
+.small-side-article .side-item .side-item-title p {
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+}
+
+.small-side-article .side-item .col-md-4, .small-side-article .side-item .col-lg-4, .small-side-article .side-item .col-xl-4 {
+    padding-right: unset;
+}
+
+
+.headline {
+    padding: 10px 0;
+    background-color: rgb(51, 135, 214);
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-block-end-width: 2px;
+    border-block-end-color: rgb(51, 135, 214);
+    border-block-end-style: solid;
+    display: inline-block;
+    float: left;
+}
+
+.headline-decor {
+    padding: 21px 20px;
+    background-color: transparent;
+    border-block-end-width: 2px;
+    border-block-end-color: rgb(51, 135, 214);
+    border-block-end-style: solid;
+    display: inline-block;
+    float: left;
+}
+
+
+.destination {
+    margin: 30px 100px;
+}
+
+.destination .continent {
+    height: 250px;
+    position: relative;
+   
+    box-sizing: border-box;
+    margin-bottom: 25px!important;
+    overflow: hidden;
+}
+
+.destination .continent:hover .cont {
+    opacity: 0.7;
+}
+
+.headline-and-decor {
+    padding-bottom: 20px;
+}
+
+/*
+.destination .continent:hover .overlay{
+    position: absolute;
+    z-index:2;
+    
+    background-color: rgba(0, 119, 255, 0.356);
+    opacity: 0.5;
+    margin: 0;
+    height: 300px;
+}
+*/
+
+.destination .continent .Asia {
+    background-image: url("../Assets/asia5.jpg");
+    background-size: cover;
+    height: 270px;
+}
+
+.destination .continent .Asia:hover {
+    transition: all .4s ease;
+    /* Animation */
+    transform: scale(1.2);
+    /* (120% zoom)*/
+    filter: grayscale(40%);
+}
+
+.destination .continent .Africa {
+    background-image: url("../Assets/africa.jpg");
+    background-size: cover;
+    height: 270px;
+}
+
+.destination .continent .Africa:hover {
+    transition: all .4s ease;
+    /* Animation */
+    transform: scale(1.2);
+    /* (120% zoom)*/
+    filter: grayscale(40%);
+}
+
+.destination .continent .Europe {
+    background-image: url("../Assets/london1.jpg");
+    background-size: cover;
+    height: 270px;
+}
+
+.destination .continent .Europe:hover {
+    transition: all .4s ease;
+    /* Animation */
+    transform: scale(1.2);
+    /* (120% zoom)*/
+    filter: grayscale(40%);
+}
+
+.destination .continent .Oceania {
+    background-image: url("../Assets/australia.jpg");
+    background-size: cover;
+    height: 270px;
+}
+
+.destination .continent .Oceania:hover {
+    transition: all .4s ease;
+    /* Animation */
+    transform: scale(1.2);
+    /* (120% zoom)*/
+    filter: grayscale(40%);
+}
+
+.destination .continent .North-America {
+    background-image: url("../Assets/north-america-continent-ms3r.jpg");
+    background-size: cover;
+    height: 270px;
+}
+
+.destination .continent .North-America:hover {
+    transition: all .4s ease;
+    /* Animation */
+    transform: scale(1.2);
+    /* (120% zoom)*/
+    filter: grayscale(40%);
+}
+
+.destination .continent .South-America {
+    background-image: url("../Assets/rio-de-janeiro.jpg");
+    background-size: cover;
+    height: 270px;
+}
+
+.destination .continent .South-America:hover {
+    transition: all .4s ease;
+    /* Animation */
+    transform: scale(1.2);
+    /* (120% zoom)*/
+    filter: grayscale(40%);
+}
+
+.destination .continent span {
+    position: absolute;
+    z-index: 3;
+    top: 50%;
+    display: block;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    padding: 10px 15px;
+    background-color: transparent;
+    border-color: white;
+    border-style: solid;
+    border-width: 3px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    text-shadow: 2px 2px 10px black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.destination .continent:hover span {
+    border-width: 0;
+    text-shadow: none;
+    background-color: rgb(0, 162, 255);
+}
+
+.news {
+    margin: 10px 100px;
+}
+
+.news .news-post {
+    margin-top: 10px;
+}
+
+.news .news-post .name {
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+    margin-top: 10px;
+}
+
+.news .news-post .pic {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    margin: auto;
+}
+
+.news .news-post a {
+    text-decoration: none;
+}
+
+.travel-tips {
+    background-color: rgb(0, 124, 196);
+    margin: 10px 100px;
+    border-radius: 20px;
+    padding: 30px 10px 20px 20px;
+}
+
+.travel-tips span {
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 15px 50px;
+    background-color: rgb(49, 49, 49);
+}
+
+.travel-tips .tips-content .row {
+    margin-right: 0;
+}
+
+.travel-tips .tips-content {
+    padding-top: 30px;
+}
+
+
+
+.travel-tips .tips-content .video p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 20px;
+}
+
+.travel-tips .tips {
+    height: 420px;
+    overflow-y: scroll;
+    padding-left: 30px;
+}
+
+#scrollbar::-webkit-scrollbar {
+    width: 12px;
+    background-color: rgba(245, 245, 245, 0);
+}
+
+#scrollbar::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #555;
+}
+
+#scrollbar::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.tips .tip .tip-pic {
+    width: 95%;
+    height: 120px;
+    object-fit: cover;
+    margin: auto;
+}
+
+.tips .tip .tip-name {
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    margin-top: 7px;
+}
+
+.partnership {
+    margin: 50px 100px 30px 100px;
+}
+
+.partnership h1 {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: rgb(70, 70, 70);
+}
+
+.partnership p {
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(77, 77, 77);
+    font-size: 16px;
+}
+
+.partnership .partners {
+    text-align: center;
+}
+
+.partnership .partners a {
+    text-decoration: none;
+}
+
+.partnership .partners img {
+    width: 110px;
+    margin-right: 34px;
+    height: auto;
+    display: inline-block;
+    filter: grayscale(100%);
+}
+
+.partnership .partners img:hover {
+    filter: none;
+}
+
+.partnership .partners .last {
+    margin-right: unset!important;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+}
+
+footer .top-of-footer {
+    background-color: rgb(36, 36, 36);
+    padding: 20px 0;
+}
+
+footer .top-of-footer .intro {
+    width: 30%;
+    display: block;
+}
+
+footer .top-of-footer .intro .logo {
+    background-image: url("../Assets/ip2.png");
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    background-position: center;
+    background-color: transparent;
+    border: none;
+    background-repeat: none;
+    margin-left: 50px;
+}
+
+footer .top-of-footer p {
+    font-size: 12px;
+    color: white;
+}
+
+footer .top-of-footer .about-us p {
+    margin-top: 10px;
+}
+
+footer .top-of-footer .about-us .address {
+    color: white;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+footer .top-of-footer .about-us img {
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+
+footer .top-of-footer .head {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
+footer .top-of-footer .follow-us {
+    width: 30%;
+    display: block;
+}
+
+.follow-us .icon-social {
+    margin-top: 10px;
+}
+
+.fab {
+    font-size: 30px;
+    color: black;
+    padding-right: 10px;
+}
+
+.fa-facebook-square, .fa-instagram, .fa-twitter-square {
+    color: white;
+}
+
+footer .bot-of-footer {
+    background-color: rgb(0, 132, 255);
+    margin: 0 -15px;
+}
+
+footer .bot-of-footer .copyright {
+    font-size: 11px;
+    color: white;
+    float: left;
+    padding: 10px;
+}
+
+footer .bot-of-footer .other-info {
+    float: right;
+    display: inline-block;
+    padding: 10px 0;
+}
+
+footer .bot-of-footer .other-info a {
+    font-size: 11px;
+    padding: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.backtotop-button button {
+    background-image: url("http://quochung.com.vn/image/data/logo/back-to-top.png");
+    position: fixed;
+    right: 5px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    border: none;
+}
+
+.backtotop-button button:focus {
+    outline: none;
+}
+
+@media(min-width: 552px) and (max-width: 767px) {
+    footer .top-of-footer .about-us .address {
+        color: white;
+        font-size: 12px;
+        line-height: 40px;
+        padding: 0;
+        margin: auto;
+    }
+}
+
+@media  (max-width:991px) {
+    .Desti-content {
+        display: none;
+        margin-top: none;
+        position: unset;
+    }
+    .Desti-content ul li .destination-dropdown {
+        width: auto;
+        line-height: 30px;
+    }
+    .navigationbar ul li a {
+        line-height: 30px;
+    }
+    header ul li a:hover {
+        background-color: transparent;
+    }
+    .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+        color: rgb(0, 162, 255);
+        font-weight: bold;
+    }
+    .form-inline {
+        position: unset;
+        display: flex;
+        justify-content: center;
+    }
+    .my-1 {
+        margin-top: 15px!important;
+        margin-bottom: 15px!important;
+    }
+    .form-control {
+        display: inline-block;
+        margin: unset;
+    }
+}
+
+@media  (min-width: 992px) {
+    .navbar-nav .nav-item {
+        line-height: 140px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 25px;
+        padding-left: .25px;
+    }
+}
+
+@media (max-width: 576px) {
+    .articles {
+        margin: 30px 10px 0 10px;
+    }
+    header .navbar {
+        padding: 0;
+        margin: 0;
+    }
+    .travel-tips {
+        margin: 10px 10px;
+        border-radius: 20px;
+        padding: 30px 10px 20px 20px;
+    }
+    .partnership {
+        margin: 50px 10px 30px 10px;
+    }
+    .destination {
+        margin: 30px 10px;
+    }
+    .news {
+        margin: 10px;
+    }
+    .featured {
+        margin: 14px 10px;
+    }
+}
+
+@media (max-width:992px) {
+    .side-item-pic {
+        display: none;
+    }
+}
+
+@media (max-width:767px) {
+    .small-side-article .side-item {
+        margin-bottom: 0px;
+    }
+    .small-side-article .side-item p {
+        margin-bottom: 7px;
+    }
+    .d-none {
+        display: unset!important;
+    }
+    .carousel-caption h5 {
+        font-size: 24px;
+        padding-left: 70px;
+    }
+    .carousel-caption p {
+        font-size: 13px;
+        padding-left: 70px;
+    }
+    footer .top-of-footer .intro .logo {
+        margin-left: -15px;
+    }
+}
+
+@media (max-width:351px) {
+    .carousel-caption h5 {
+        padding-left: 30px;
+    }
+    .carousel-caption p {
+        padding-left: 30px;
+    }
+}
